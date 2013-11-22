@@ -16,7 +16,7 @@ if(isset($_GET['sign'])) {
 
     $html = file_get_html('http://orakul.ua/horoscope/astro/general/today/' . $parseSigns[$signId + 1] . '.html');
     foreach($html->find('div.horoBlock') as $el) {
-        $arr['parse'] = $el->find('p')[0]->plaintext;
+        $arr['parse'] = $el->find('p', 0)->plaintext;
     }
 
     echo(json_encode($arr));

@@ -27,7 +27,8 @@ class Database {
         $query = "SELECT id FROM daily_horoscopes WHERE sign_id = '$signId' AND date = '$date'";
         $res = mysqli_query($this->mysql, $query);
         if(mysqli_num_rows($res) > 0) {
-            return mysqli_fetch_assoc($res)['id'];
+            $arr = mysqli_fetch_assoc($res);
+            return $arr['id'];
         }
         // if no - insert and create id
         else {
@@ -41,7 +42,8 @@ class Database {
         $query = "SELECT text FROM daily_horoscopes WHERE id = '$id'";
         $res = mysqli_query($this->mysql, $query);
         if(mysqli_num_rows($res) > 0) {
-            return mysqli_fetch_assoc($res)['text'];
+            $arr = mysqli_fetch_assoc($res);
+            return['text'];
         }
         else {
             return false;

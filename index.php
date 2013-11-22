@@ -78,7 +78,6 @@
                 $("#link").attr("href", arr.link);
                 $("#link").text(arr.link);
                 $("#parse").text(arr.parse);
-                console.log(data);
             });
         $(".sign").hide();
         $("#s" + $(this).find('option:selected').attr('value')).show();
