@@ -1,0 +1,42 @@
+.sign {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+#s1 {
+    background: url('../img/signs_map.jpg') -100px 0px;
+}
+#s2 {
+    background: url('../img/signs_map.jpg') -200px 0px;
+}
+#s3 {
+    background: url('../img/signs_map.jpg') -300px 0px;
+}
+#s4 {
+    background: url('../img/signs_map.jpg') 0px -100px;
+}
+#s5 {
+    background: url('../img/signs_map.jpg') -100px -100px;
+}
+#s6 {
+    background: url('../img/signs_map.jpg') -200px -100px;
+}
+#s7 {
+    background: url('../img/signs_map.jpg') -300px -100px;
+}
+#s8 {
+    background: url('../img/signs_map.jpg') 0px -200px;
+}
+#s9 {
+    background: url('../img/signs_map.jpg') -100px -200px;
+}
+#s10 {
+    background: url('../img/signs_map.jpg') -200px -200px;
+}
+#s11 {
+    background: url('../img/signs_map.jpg') -300px -200px;
+}
+#s12 {
+    background: url('../img/signs_map.jpg') 0px 0px;
+}
