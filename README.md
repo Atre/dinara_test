@@ -1,5 +1,6 @@
 dinara_test
 ===========
+Демо: http://round-blog.com/exp/dinara/
 
 Обязательные задачи:
 
